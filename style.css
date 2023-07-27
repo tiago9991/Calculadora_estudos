@@ -10,8 +10,14 @@
   font-family: Arial, Helvetica, sans-serif; 
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;   
+  
+}
+
+h1 {
+  top: 0;
 }
 
 #resultado {
@@ -26,7 +32,7 @@
 }
 
 .calculadora {
-  position: absolute;
+  /* position: absolute; */
   background-color: rgba(0, 0, 0, .8);
   /* top: 50%;
   left: 50%;
